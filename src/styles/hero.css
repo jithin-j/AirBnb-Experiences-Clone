@@ -1,0 +1,38 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container > img {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.image-container {
+  width: 100%;
+  align-self: center;
+}
+
+.hero--header {
+  margin-left: 10px;
+}
+
+.hero--text {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .image-container > img {
+    height: 685px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .image-container > img {
+    width: 395.91px;
+    height: 232px;
+    left: 77px;
+    top: 96px;
+  }
+}
