@@ -41,4 +41,17 @@ export default [
     location: "Norway",
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: "Web dev bootcamp",
+    description: "Learn full stack web development in 10 days!",
+    price: 30,
+    coverImg: "/images/img4.jpg",
+    stats: {
+      rating: 4.8,
+      reviewCount: 2,
+    },
+    location: "Norway",
+    openSpots: 3,
+  },
 ];
