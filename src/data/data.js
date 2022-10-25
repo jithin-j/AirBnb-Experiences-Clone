@@ -48,10 +48,10 @@ export default [
     price: 30,
     coverImg: "/images/img4.jpg",
     stats: {
-      rating: 4.8,
-      reviewCount: 2,
+      rating: 5,
+      reviewCount: 10,
     },
-    location: "Norway",
-    openSpots: 3,
+    location: "Online",
+    openSpots: 100,
   },
 ];
